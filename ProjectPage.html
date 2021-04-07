@@ -32,6 +32,11 @@
       padding: 20px;
       background-color: grey;
     }
+    .center {
+      margin-left: auto;
+      margin-right: auto;
+      display: block
+    }
 
     .about-section {
       padding: 65px;
@@ -105,9 +110,10 @@
       font-size: 60px;
     }
 
-    @media screen and (max-width: 650px){
+    @media screen and (max-width: 1024px){
       .column{
         width: 100%;
+        height: 100%;
         display: block;
       }
     }
@@ -149,9 +155,9 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="FirstVR.png" style="width: 100%">
+      <img src="FirstVR.png" style="width: 95%">
       <div class="container">
-        <h2>My first Virtual reality domain</h2>
+        <h4>My first Virtual reality domain</h4>
         <p class="title"></p>
         <p><button class="button" onclick="document.location='VR.html'">Link</button></p>
       </div>
@@ -159,9 +165,9 @@
   </div>
   <div class="column">
     <div class="card">
-      <img src="AR.png" style="width: 90%">
+      <img src="AR.png" style="width: 85%" height="">
       <div class="container">
-        <h2>My first Augmented reality domain</h2>
+        <h4>My first Augmented reality domain</h4>
         <p class="title"></p>
         <p><button class="button" onclick="document.location='AR.html'">Link</button></p>
       </div>
@@ -169,52 +175,81 @@
   </div>
   <div class="column">
     <div class="card">
-      <video width="420" height="280" controls>
+      <video width="100%" height="270" controls>
         <source src="AR-Trial.mp4" type="video/mp4">
       </video>
       <div class="container">
-        <h2>My first Augmented Reality App</h2>
+        <h4>My first AR research project/App</h4>
         <p class="title"></p>
-        <p><button class="button" onclick="document.location='Video.html'">Link</button></p>
       </div>
     </div>
   </div>
   <div class="column">
     <div class="card">
-      <video width="420" height="280" controls>
+      <video width="100%" height="328" controls>
         <source src="Project%20Video.mp4" type="video/mp4">
       </video>
       <div class="container">
-        <h4>Second version of Augmented Reality App</h4>
+        <h4>Second version of research app</h4>
         <p class="title"></p>
-        <p><button class="button" onclick="document.location='Video.html'">Link</button></p>
       </div>
     </div>
   </div>
-
   <div class="column">
     <div class="card">
-      <video width="420" height="280" controls>
+      <video width="380" height="280" controls class="center">
         <source src="JuanitaBenjamin_Paintball.mp4" type="video/mp4">
       </video>
       <div class="container">
-        <h2>Paintball</h2>
+        <h4>Paintball</h4>
         <p class="title"></p>
         <p><button class="button" onclick="document.location='https://play.unity.com/mg/other/my-new-microgame-1480'">Link</button></p>
       </div>
     </div>
   </div>
-
   <div class="column">
     <div class="card">
-      <video width="420" height="280" controls>
-        <source src="VR Cornhole.mp4" type="video/mp4">
+      <video width="380" height="345" controls class="center">
+        <source src="JBenjami_SpaceShooter.mp4" type="video/mp4">
       </video>
       <div class="container">
-        <h4>This is a VR implementation of the common game called cornhole. The 
-          user can play the game like they would in real life.
-        </h4>
+        <p class="title"><b> Mini spaceshooter 3D game.</b></p>
         <p class="title"></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <video width="380" height="280" controls class="center">
+        <source src="VR%20Cornhole.mp4" type="video/mp4">
+      </video>
+      <div class="container">
+        <p class="title"><b> This is a VR implementation of the well-known party game, Cornhole.</b></p>
+        <p class="title"></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <video width="380" height="250" controls class="center">
+        <source src="Team2Video.mp4" type="video/mp4">
+      </video>
+      <div class="container">
+        <p class="title"><b> Collaborated with Dgital Precept in a VR game, Mend. The task was to create a communication
+          system between VR and PC player. Here, my team used emoji's.</b></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <video width="380" height="275" class="center" controls>
+        <source src="HauntedJaunt.mp4" type="video/mp4">
+      </video>
+      <div class="container">
+        <p class="title"><b>A 3D game called Haunted Jaunt, where the player has to sneak past enemies
+          to the final room.</b></p>
+        <p class="title"></p>
+      
       </div>
     </div>
   </div>
